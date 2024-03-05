@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Orion"
 include(":app")
 include(":orion")
+include(":script")

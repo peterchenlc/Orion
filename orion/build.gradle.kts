@@ -41,15 +41,4 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
-    // Litho
-    api("com.facebook.litho:litho-core:0.48.0")
-    api("com.facebook.litho:litho-core-kotlin:0.48.0")
-    api("com.facebook.litho:litho-widget:0.48.0")
-    api("com.facebook.litho:litho-widget-kotlin:0.48.0")
-    kapt("com.facebook.litho:litho-processor:0.48.0")
-    // SoLoader
-    api("com.facebook.soloader:soloader:0.10.5")
-    // Testing Litho
-    testImplementation("com.facebook.litho:litho-testing:0.48.0")
 }
